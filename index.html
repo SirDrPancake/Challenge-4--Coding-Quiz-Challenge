@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz Challenge</title>
+        <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <!-- button to start the quiz-->
+    <button id="start">Start</button>
+<!-- quiz starts-->
+    <div id="quiz">
+        
+        <h2 id="test"></h2>
+        <!-- possible answeres-->
+        <button class="questions">multi 1</button>
+        <button class="questions">multi 2</button>
+        <button class="questions">multi 3</button>
+        <button class="questions">multi 4</button>
+    </div>
+<!-- time left after is shown here-->
+    <div id="testdone">
+        <!-- "quiz ended" is displayed-->
+        <h1>Quiz Ended</h1>
+        <!-- under "quiz ended" is displayed, the time remaining is shown-->
+        <p id="score"></p>
+        <input type="text" id="initials" placeholder="Your initials">
+
+    </div>
+    <!-- highscore added here-->
+    <table id="highscores"></table>
+    <script src="./script/script.js"></script>
+    
+</body>
+</html>
+   

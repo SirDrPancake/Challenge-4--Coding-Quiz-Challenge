@@ -1,0 +1,31 @@
+button {
+  background-color: purple;
+  text-align: center; 
+  border: dotted;
+  font-size: 18px;
+  color: lightblue;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: lightblue;
+  text-align: center; 
+}
+
+h1 {
+  font-family: sans-serif;
+  background-color: lightblue;
+  text-align: center; 
+
+}
+
+#quiz {
+  display: none;
+}
+
+#testdone {
+  display: none;
+}
